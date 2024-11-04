@@ -9,3 +9,5 @@ Sentiment Analysis: Integrates sentiment data from social media and news to gaug
 Dynamic Position Sizing & Stop-Loss: Adapts trade sizes based on market volatility and Bayesian confidence.
 Backtesting: Validates strategies under historical conditions with metrics like Sharpe ratio and Calmar ratio.
 Real-Time Liquidity Analysis: Analyzes order books to manage trades in real-time and assess market depth.
+
+loak(1).pdf is a detailed mathematical analysis of the fa.py code file.
