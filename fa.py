@@ -270,8 +270,8 @@ class WhaleTracker:
         self.min_whale_amount = min_whale_amount
         self.initial_portfolio_value = initial_portfolio_value
         self.exchange = ccxt.binance({
-            'apiKey': '5941798b6a5c4fb17c4e1f5cef2c34007a312bd6fbdf82d6a5247566daad3c67',
-            'secret': '2079cb861ae654ecd5ee16687e5d3bdc0fc0bfac4d9f3f0070ca0dcec96cb8b2',
+            'apiKey': 'YOUR_REAL_API_KEY',
+            'secret': 'YOUR_REAL_SECRET_KEY',
             'options': {
                 'defaultType': 'future',
                 'testnet': True,
@@ -1608,8 +1608,8 @@ class OrderBookAnalyzer:
 
 async def main():
     tracker = WhaleTracker(
-        api_key='c62a9f5c66814a2fb9a93bad4c2bc63a',
-        solscan_api_key='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkQXQiOjE3MzAzMTIzMTM4OTAsImVtYWlsIjoic2V5aGdhbGliaW5iZXlpdGlAZ21haWwuY29tIiwiYWN0aW9uIjoidG9rZW4tYXBpIiwiYXBpVmVyc2lvbiI6InYyIiwiaWF0IjoxNzMwMzEyMzEzfQ.bNjMGEm_wgOPvA1cycy8jtf1xU6KAVj5DEkrBZW8JWk',
+        api_key='BIRDEYE_API_KEY',
+        solscan_api_key='SOL_SCAN_REAL_API_KEY',
         min_whale_amount=100000,
         initial_portfolio_value=100000  # Set initial portfolio value
     )
